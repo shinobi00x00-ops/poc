@@ -9,7 +9,6 @@
     {
       "type": "widget",
       "accessLevel": "EVERYONE",
-      "location": "WIDGET",
       "path": "/index.html",
       "label": "PoC Widget"
     }
