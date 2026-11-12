@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.3",
+  "key": "security-poc-test",
+  "name": "Security PoC Test",
+  "baseUrl": "PLACEHOLDER_WILL_UPDATE",
+  "description": "Private PoC for postMessage origin validation test",
+  "minimalSubscriptionPlan": "FREE",
+  "components": [
+    {
+      "type": "widget",
+      "accessLevel": "EVERYONE",
+      "location": "WIDGET",
+      "path": "/index.html",
+      "label": "PoC Widget"
+    }
+  ]
+}
