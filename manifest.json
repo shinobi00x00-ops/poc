@@ -7,10 +7,10 @@
   "minimalSubscriptionPlan": "FREE",
   "components": [
     {
-      "type": "widget",
+      "type": "sidebar",
       "accessLevel": "EVERYONE",
       "path": "/index.html",
-      "label": "PoC Widget"
+      "label": "PoC Sidebar"
     }
   ]
 }
