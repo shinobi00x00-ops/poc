@@ -2,7 +2,7 @@
   "schemaVersion": "1.3",
   "key": "security-poc-test",
   "name": "Security PoC Test",
-  "baseUrl": "PLACEHOLDER_WILL_UPDATE",
+  "baseUrl": "https://shinobi00x00-ops.github.io/poc",
   "description": "Private PoC for postMessage origin validation test",
   "minimalSubscriptionPlan": "FREE",
   "components": [
