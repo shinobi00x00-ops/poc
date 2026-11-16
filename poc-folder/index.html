@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Iframely XSS Test Page</title>
-    <!-- این تگ به Iframely میگه که endpoint ما کجاست -->
-    <link rel="alternate" type="application/json+oembed" href="./oembed.json" title="XSS Test Video" />
+    <!-- حذف تگ oEmbed قبلی -->
+    <!-- <link rel="alternate" type="application/json+oembed" href="./oembed.json" title="XSS Test Video" /> -->
+    
+    <!-- افزودن تگ iframely -->
+    <link rel="iframely player" href="https://shinobi00x00-ops.github.io/poc/poc-folder/payload.html" media="(aspect-ratio: 16/9)" />
 </head>
 <body>
     <h1>This is a test page for Iframely SSRF/XSS research.</h1>
-    <p>The oEmbed endpoint is located at <code>oembed.json</code>.</p>
+    <p>Using the <code>link rel="iframely"</code> discovery method.</p>
 </body>
 </html>
