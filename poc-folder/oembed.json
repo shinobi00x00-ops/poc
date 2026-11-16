@@ -1,0 +1,7 @@
+{
+  "type": "video",
+  "version": "1.0",
+  "html": "<img src=x onerror=\"alert('XSS - ' + document.cookie)\">",
+  "width": 1,
+  "height": 1
+}
