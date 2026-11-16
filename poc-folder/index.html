@@ -1,22 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Test Video</title>
-  <meta property="og:title" content="Test Video">
-  <meta property="og:description" content="Test description">
-  <meta property="og:type" content="video.other">
-  <meta property="og:video" content="https://shinobi00x00-ops.github.io/poc/poc-folder/payload.html">
-  <meta property="og:video:url" content="https://shinobi00x00-ops.github.io/poc/poc-folder/payload.html">
-  <meta property="og:video:secure_url" content="https://shinobi00x00-ops.github.io/poc/poc-folder/payload.html">
-  <meta property="og:video:type" content="text/html">
-  <meta property="og:video:width" content="300">
-  <meta property="og:video:height" content="150">
-  <meta name="twitter:card" content="player">
-  <meta name="twitter:player" content="https://shinobi00x00-ops.github.io/poc/poc-folder/payload.html">
-  <meta name="twitter:player:width" content="300">
-  <meta name="twitter:player:height" content="150">
+    <meta charset="UTF-8">
+    <title>Iframely XSS Test Page</title>
+    <!-- این تگ به Iframely میگه که endpoint ما کجاست -->
+    <link rel="alternate" type="application/json+oembed" href="./oembed.json" title="XSS Test Video" />
 </head>
 <body>
-  <h1>Test Video Page</h1>
+    <h1>This is a test page for Iframely SSRF/XSS research.</h1>
+    <p>The oEmbed endpoint is located at <code>oembed.json</code>.</p>
 </body>
 </html>
