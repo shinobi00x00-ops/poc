@@ -1,7 +1,9 @@
 {
-  "type": "video",
   "version": "1.0",
-  "html": "<img src=x onerror=\"alert('XSS - ' + document.cookie)\">",
-  "width": 1,
-  "height": 1
+  "type": "video",
+  "provider_name": "Security Test",
+  "provider_url": "https://github.com/",
+  "width": 640,
+  "height": 360,
+  "html": "<img src=x onerror=alert('Iframely-XSS-Test')>"
 }
